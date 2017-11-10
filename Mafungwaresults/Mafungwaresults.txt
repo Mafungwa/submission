@@ -1,0 +1,37 @@
+1.
+
+2. library(readxl)
+> Results <- read_excel("C:/ProgramData/BlueStacks/UserData/Library/My Apps/Results.xlsx")
+> View(Results)
+
+3.  a)
+summary(Results)
+ Subject name           Term 1          Term 2          Term 3         Term 4  
+ Length:3           Min.   :60.00   Min.   :58.00   Min.   :67.0   Min.   :66  
+ Class :character   1st Qu.:70.00   1st Qu.:65.50   1st Qu.:68.5   1st Qu.:67  
+ Mode  :character   Median :80.00   Median :73.00   Median :70.0   Median :68  
+                    Mean   :76.33   Mean   :68.67   Mean   :71.0   Mean   :74  
+                    3rd Qu.:84.50   3rd Qu.:74.00   3rd Qu.:73.0   3rd Qu.:78  
+                    Max.   :89.00   Max.   :75.00   Max.   :76.0   Max.   :88  
+     Term 5     
+ Min.   :65.00  
+ 1st Qu.:71.50  
+ Median :78.00  
+ Mean   :77.67  
+ 3rd Qu.:84.00  
+ Max.   :90.00  
+
+
+b) AppDev1 <-c(60,58,76,88,78)
+> mean(AppDev1)
+
+c) 
+
+
+4. a) Term5 <-c(60,58,76,88,78)
+>hist(Term5)
+
+b) Term3 <- c(76,67,70)
+> boxplot(Term3)
+
+
